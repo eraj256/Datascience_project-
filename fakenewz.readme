@@ -1,0 +1,41 @@
+# 📰 Fake News Classification using NLP
+
+## 📖 Project Overview
+This project is part of an internship task where we designed a **Fake News Detection System** using Natural Language Processing (NLP).  
+The system classifies news articles as either **REAL** or **FAKE**, helping to combat misinformation on digital platforms.
+
+---
+
+## 🚀 Features
+- Data preprocessing: cleaning, stopword removal, and TF-IDF vectorization.  
+- Exploratory Data Analysis (EDA): class distribution and article length analysis.  
+- Model training: Logistic Regression, Naive Bayes, and SVM.  
+- Model evaluation: Accuracy, Precision, Recall, F1-score, Confusion Matrix, and ROC Curve.  
+- Real-world testing with new unseen articles.  
+
+---
+
+ 📊 Dataset
+The dataset is available on Kaggle:  
+👉 [Fake and Real News Dataset]("https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets/code")  
+
+It includes two CSV files:  
+- **Fake.csv** → Fake news articles  
+- **True.csv** → Real news articles  
+
+---
+
+📈 Results
+- Logistic Regression achieved the best performance with AUC ≈ 0.9.  
+- Successfully detected both **fake** and **real** test news articles outside the dataset.  
+
+🛠 Tools & Libraries
+- Python, Pandas, Numpy  
+- Scikit-learn (TF-IDF, Logistic Regression, Naive Bayes, SVM)  
+- Matplotlib, Seaborn  
+
+---
+
+## 📌 Conclusion
+The project demonstrates how **NLP + Machine Learning** can be applied to detect misinformation.  
+This solution can be scaled for **media companies, governments, and social media platforms** to ensure trust and credibility.  
